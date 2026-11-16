@@ -13,5 +13,13 @@ public class Health{
             System.out.println("  4. Exit");
             System.out.println("-------------------------------------");
             System.out.print("Choose an option (1-4): ");
+
+        Scanner scanner = new Scanner(System.in);
+        int choice = scanner.nextInt();
+        if (choice == 1){
+            System.out.println("Welcome to the Calorie Calculator");
         }
+
     }
+    }
+
