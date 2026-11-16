@@ -30,7 +30,11 @@ public class Health {
             System.out.println("It will take in details about you");
             System.out.println("Such as: age, gender, habits. To personalise to you.");
 
+        } else if (choice == 4) {
+                System.out.println("Thank you for using H&F!");
+                System.exit(0);
+            }
+
         }
     }
-}
 
