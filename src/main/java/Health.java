@@ -16,9 +16,14 @@ public class Health{
 
         Scanner scanner = new Scanner(System.in);
         int choice = scanner.nextInt();
-        if (choice == 1){
+        if (choice == 1) {
             System.out.println("Welcome to the Calorie Calculator");
-        }
+
+        } else if (choice == 2) {
+            System.out.println("Welcome to the Diet Planner");
+
+
+
 
     }
     }
